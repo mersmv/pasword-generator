@@ -4,3 +4,36 @@
   justify-content: center;
   height: 100vh;
 }
+
+.character-box{
+  display: flex;
+}
+
+.strenght-box{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.range-value{
+  margin-left: 115px;
+}
+
+.password{
+  margin-bottom: 30px;
+}
+.range{
+  width: 300px;
+}
+.input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  
+}
+
+.password-form{
+  width: 300px;
+}
+

@@ -19,14 +19,16 @@
     <main class="main">
     <div>
       <div class="password">
-        <input type="text" class="input" id="input-pasword" placeholder="password" readonly>
+        <input type="text" class="input" id="inputpassword" placeholder="password" value="" readonly>
       </div>
       <div class="password-form">
         <form id="form">
+          <div class="character-box">
           <label for="range">Character lenght
             <span class="range-value" id="rangeValue">0</span>
           </label>
-          <input id="range" type="range" min="0" max="20" step="1" value="20">
+        </div>
+          <input id="range" type="range" min="0" max="20" step="1" value="20" class="range">
           <div>
             <input type="checkbox" id="uppercase" name="uppercase">
             <label for="uppercase">Include uppercase letters</label>
@@ -43,7 +45,7 @@
             <input type="checkbox" id="symbols" name="symbols">
             <label for="symbols">Include symbols</label>
           </div> 
-          <div>
+          <div class="strenght-box">
             <h1 class="strength-title">STRENGHT</h1>
             <h2 class="strength-value" id="strengthValue"></h2>
           </div>
